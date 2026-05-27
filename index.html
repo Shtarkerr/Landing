@@ -30,15 +30,6 @@
         <span>Новый рейс</span>
       </a>
 
-      <nav class="nav" aria-label="Основная навигация">
-        <a href="#hero">Главная</a>
-        <a href="#conditions">Условия</a>
-        <a href="#own-car">Свой авто</a>
-        <a href="#park-car">Авто парка</a>
-        <a href="#steps">Подключение</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contacts">Контакты</a>
-      </nav>
 
       <div class="header-actions">
         <button class="theme-toggle" type="button" aria-label="Переключить тему">
@@ -55,7 +46,7 @@
 
     <div class="mobile-menu" aria-hidden="true">
       <a href="#hero">Главная</a>
-      <a href="#conditions">Условия</a>
+      <a href="#work-options">Условия</a>
       <a href="#own-car">Свой авто</a>
       <a href="#park-car">Авто парка</a>
       <a href="#steps">Подключение</a>
@@ -67,11 +58,21 @@
 
   <main>
     <section class="hero section" id="hero">
-      <div class="container hero-grid">
-        <div class="hero-content reveal">
+      <div class="container hero-layout">
+        <div class="hero-content hero-content-wide reveal">
           <p class="eyebrow">Волгоград · подключение к Яндекс Про</p>
           <h1>Таксопарк “Новый рейс” — подключение водителей к Яндекс Про</h1>
           <p class="hero-text">Работайте на своём автомобиле или на автомобиле таксопарка. Прозрачные условия, поддержка и быстрый выход на линию в Волгограде.</p>
+
+          <nav class="hero-nav" aria-label="Навигация по сайту">
+            <a href="#hero">Главная</a>
+            <a href="#work-options">Условия</a>
+            <a href="#own-car">Свой авто</a>
+            <a href="#park-car">Авто парка</a>
+            <a href="#steps">Подключение</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contacts">Контакты</a>
+          </nav>
 
           <div class="badges" aria-label="Краткие преимущества">
             <span>Свой автомобиль</span>
@@ -90,101 +91,75 @@
 
           <p class="hint">Свяжитесь с нами с 9:00 до 22:00 — расскажем условия и поможем подключиться.</p>
         </div>
-
-        <div class="hero-card reveal delay-1" aria-label="Краткая информация о подключении">
-          <div class="hero-card__top">
-            <span class="status-dot"></span>
-            <span>Подключение водителей</span>
-          </div>
-          <div class="route-visual" aria-hidden="true">
-            <div class="route-point point-a">A</div>
-            <div class="route-line"></div>
-            <div class="route-point point-b">B</div>
-          </div>
-          <div class="mini-stats">
-            <div>
-              <strong>2%</strong>
-              <span>комиссия парка</span>
-            </div>
-            <div>
-              <strong>1800 ₽</strong>
-              <span>аренда в день</span>
-            </div>
-            <div>
-              <strong>0 ₽</strong>
-              <span>залог</span>
-            </div>
-          </div>
-          <div class="card-note">
-            <strong>Работа только через Яндекс Про.</strong>
-            <span>На своём авто или на автомобиле таксопарка.</span>
-          </div>
-        </div>
       </div>
     </section>
 
     <section class="section" id="work-options">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">Форматы работы</p>
+          <p class="eyebrow">Форматы и условия</p>
           <h2>Два варианта работы</h2>
-          <p>Выберите подходящий формат: подключение на своём автомобиле или работа на машине таксопарка.</p>
+          <p>Выберите подходящий формат. Основные условия сразу указаны внутри каждого варианта, чтобы не искать их отдельно.</p>
         </div>
 
         <div class="cards two-columns">
           <article class="option-card reveal" id="own-car">
             <div class="card-icon">🚕</div>
             <h3>Работа на своём автомобиле</h3>
-            <p>Если у вас есть автомобиль, подходящий под условия Яндекс Про, мы подключим вас к таксопарку “Новый рейс” и поможем выйти на линию. Минимального остатка для водителей на своём авто нет.</p>
+            <p>Если у вас есть автомобиль, подходящий под условия Яндекс Про, мы подключим вас к таксопарку “Новый рейс” и поможем выйти на линию.</p>
+
+            <div class="option-terms">
+              <h4>Условия для своего авто</h4>
+              <div class="terms-grid">
+                <div><span>Комиссия парка</span><strong>2%</strong></div>
+                <div><span>Комиссия за вывод</span><strong>2%</strong></div>
+                <div><span>Минимальный остаток</span><strong>нет</strong></div>
+                <div><span>Выплаты</span><strong>через Яндекс Про</strong></div>
+              </div>
+            </div>
+
             <ul class="check-list">
               <li>Подключение к Яндекс Про</li>
               <li>Работа на своём автомобиле</li>
-              <li>Без минимального остатка</li>
-              <li>Помощь с регистрацией</li>
-              <li>Поддержка по рабочим вопросам</li>
+              <li>Автомобиль должен подходить под условия Яндекс Про</li>
+              <li>Моментальные выплаты на привязанную карту любого банка</li>
+              <li>Топливо, мойка, штрафы и текущие расходы — за водителем</li>
+              <li>Помощь с регистрацией и поддержка по рабочим вопросам</li>
             </ul>
           </article>
 
           <article class="option-card accent-card reveal delay-1" id="park-car">
             <div class="card-icon">🚘</div>
             <h3>Работа на автомобиле таксопарка</h3>
-            <p>Если своего автомобиля нет, можно работать на автомобиле таксопарка. В парке используются LADA Granta 2024–2025 годов. Автомобиль можно забирать домой, после подписания договора аренды.</p>
+            <p>Если своего автомобиля нет, можно работать на автомобиле таксопарка. В парке используются LADA Granta 2024–2025 годов.</p>
+
+            <div class="option-terms">
+              <h4>Условия для авто парка</h4>
+              <div class="terms-grid">
+                <div><span>Аренда</span><strong>1800 ₽ / день</strong></div>
+                <div><span>Воскресенье</span><strong>без списания</strong></div>
+                <div><span>Залог</span><strong>нет</strong></div>
+                <div><span>Минимальный остаток</span><strong>1800 ₽</strong></div>
+                <div><span>Комиссия парка</span><strong>2%</strong></div>
+                <div><span>Комиссия за вывод</span><strong>2%</strong></div>
+              </div>
+            </div>
+
             <ul class="check-list">
               <li>LADA Granta 2024–2025</li>
-              <li>Аренда 1800 ₽ в день</li>
-              <li>Воскресенье без списания аренды</li>
-              <li>Без залога</li>
+              <li>Можно забирать автомобиль домой после подписания договора аренды</li>
               <li>Можно работать днём и ночью</li>
               <li>Автоматическое списание аренды с баланса</li>
+              <li>Выплаты через Яндекс Про на карту любого банка</li>
+              <li>Топливо, мойка, штрафы и текущие расходы — за водителем</li>
             </ul>
           </article>
         </div>
-      </div>
-    </section>
 
-    <section class="section section-muted" id="conditions">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Прозрачные условия</p>
-          <h2>Условия работы</h2>
-          <p>Главные цифры и правила собраны в одном месте, чтобы вы сразу понимали формат работы.</p>
-        </div>
-
-        <div class="conditions-grid">
-          <article class="condition-card reveal"><span>Комиссия парка</span><strong>2%</strong></article>
-          <article class="condition-card reveal"><span>Комиссия за вывод средств</span><strong>2%</strong></article>
-          <article class="condition-card reveal"><span>Аренда авто парка</span><strong>1800 ₽ / день</strong></article>
-          <article class="condition-card reveal"><span>Воскресенье</span><strong>без списания аренды</strong></article>
-          <article class="condition-card reveal"><span>Залог</span><strong>нет</strong></article>
-          <article class="condition-card reveal"><span>Выплаты</span><strong>через Яндекс Про</strong></article>
-          <article class="condition-card reveal"><span>Минимальный остаток для своего авто</span><strong>нет</strong></article>
-          <article class="condition-card reveal"><span>Минимальный остаток для авто парка</span><strong>1800 ₽</strong></article>
-        </div>
-
-        <div class="notice reveal">
+        <div class="notice reveal conditions-note">
           <h3>Важно знать заранее</h3>
-          <p>Топливо, мойка, штрафы и текущие расходы оплачивает водитель. Мы не обещаем фиксированный доход — он зависит от вашей активности, графика и количества выполненных заказов.</p>
-          <p>Актуальные условия уточняйте при подключении. Доход водителя зависит от графика, количества заказов, активности и других факторов.</p>
+          <p>Мы не обещаем фиксированный доход — он зависит от вашей активности, графика, количества выполненных заказов, спроса и других факторов.</p>
+          <p>Актуальные условия уточняйте при подключении.</p>
         </div>
       </div>
     </section>
