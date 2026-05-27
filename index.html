@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru" data-theme="dark">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Таксопарк Новый рейс — подключение к Яндекс Про в Волгограде</title>
-  <meta name="description" content="Подключение водителей к Яндекс Про через таксопарк “Новый рейс” в Волгограде. Работа на своём автомобиле или на автомобиле таксопарка. Комиссия парка 2%, аренда авто, моментальные выплаты." />
+  <meta name="description"
+    content="Подключение водителей к Яндекс Про через таксопарк “Новый рейс” в Волгограде. Работа на своём автомобиле или на автомобиле таксопарка. Комиссия парка 2%, аренда авто, моментальные выплаты." />
   <meta name="theme-color" content="#11100d" />
 
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Таксопарк Новый рейс — подключение к Яндекс Про в Волгограде" />
-  <meta property="og:description" content="Работа на своём автомобиле или на автомобиле таксопарка. Прозрачные условия, поддержка и выплаты через Яндекс Про." />
+  <meta property="og:description"
+    content="Работа на своём автомобиле или на автомобиле таксопарка. Прозрачные условия, поддержка и выплаты через Яндекс Про." />
   <meta property="og:site_name" content="Новый рейс" />
   <meta property="og:locale" content="ru_RU" />
 
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
 </head>
+
 <body>
   <div class="page-bg" aria-hidden="true">
     <span class="glow glow-one"></span>
@@ -23,19 +28,27 @@
     <span class="grid-pattern"></span>
   </div>
 
-  <header class="site-header" id="top">
+  <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="#hero" aria-label="Таксопарк Новый рейс">
         <span class="logo-mark">НР</span>
         <span>Новый рейс</span>
       </a>
 
+      <nav class="header-nav" aria-label="Основная навигация">
+        <a href="#conditions">Условия</a>
+        <a href="#steps">Подключение</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
 
       <div class="header-actions">
         <button class="theme-toggle" type="button" aria-label="Переключить тему">
           <span class="theme-toggle__icon">☀</span>
         </button>
+
         <a class="btn btn-small btn-outline" href="tel:+79608865827">Позвонить</a>
+
         <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
           <span></span>
           <span></span>
@@ -44,42 +57,33 @@
       </div>
     </div>
 
-    <div class="mobile-menu" aria-hidden="true">
-      <a href="#hero">Главная</a>
-      <a href="#work-options">Условия</a>
-      <a href="#own-car">Свой авто</a>
-      <a href="#park-car">Авто парка</a>
+    <nav class="mobile-menu" aria-label="Мобильная навигация" aria-hidden="true">
+      <a href="#conditions">Условия</a>
       <a href="#steps">Подключение</a>
       <a href="#faq">FAQ</a>
       <a href="#contacts">Контакты</a>
       <a class="btn btn-primary mobile-call" href="tel:+79608865827">Позвонить</a>
-    </div>
+    </nav>
   </header>
 
   <main>
     <section class="hero section" id="hero">
-      <div class="container hero-layout">
-        <div class="hero-content hero-content-wide reveal">
-          <p class="eyebrow">Волгоград · подключение к Яндекс Про</p>
-          <h1>Таксопарк “Новый рейс” — подключение водителей к Яндекс Про</h1>
-          <p class="hero-text">Работайте на своём автомобиле или на автомобиле таксопарка. Прозрачные условия, поддержка и быстрый выход на линию в Волгограде.</p>
+      <div class="container">
+        <div class="hero-content reveal">
+          <p class="hero-kicker">Таксопарк «Новый рейс»</p>
 
-          <nav class="hero-nav" aria-label="Навигация по сайту">
-            <a href="#hero">Главная</a>
-            <a href="#work-options">Условия</a>
-            <a href="#own-car">Свой авто</a>
-            <a href="#park-car">Авто парка</a>
-            <a href="#steps">Подключение</a>
-            <a href="#faq">FAQ</a>
-            <a href="#contacts">Контакты</a>
-          </nav>
+          <h1>Подключение водителей к Яндекс Про в Волгограде</h1>
 
-          <div class="badges" aria-label="Краткие преимущества">
-            <span>Свой автомобиль</span>
-            <span>Авто таксопарка</span>
-            <span>Комиссия парка 2%</span>
+          <p class="hero-text">
+            Работайте на своём автомобиле или на автомобиле таксопарка.
+            Прозрачные условия, поддержка и быстрый выход на линию.
+          </p>
+
+          <div class="hero-features" aria-label="Преимущества">
+            <span>Свободный график</span>
+            <span>Свой автомобиль или авто таксопарка</span>
             <span>Моментальные выплаты через Яндекс Про</span>
-            <span>Без залога за авто парка</span>
+            <span>Быстрое подключение</span>
           </div>
 
           <div class="hero-buttons">
@@ -89,77 +93,117 @@
             <a class="btn btn-soft" href="#" aria-label="Написать в MAX">MAX</a>
           </div>
 
-          <p class="hint">Свяжитесь с нами с 9:00 до 22:00 — расскажем условия и поможем подключиться.</p>
+          <p class="hint">
+            Свяжитесь с нами с 9:00 до 22:00 — расскажем условия и поможем подключиться.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class="section" id="work-options">
+    <section class="section section-muted" id="conditions">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">Форматы и условия</p>
+          <p class="eyebrow">Форматы работы</p>
           <h2>Два варианта работы</h2>
-          <p>Выберите подходящий формат. Основные условия сразу указаны внутри каждого варианта, чтобы не искать их отдельно.</p>
+          <p>
+            Главные условия сразу указаны внутри каждого варианта,
+            чтобы не искать информацию по всему сайту.
+          </p>
         </div>
 
         <div class="cards two-columns">
-          <article class="option-card reveal" id="own-car">
+          <article class="option-card reveal">
             <div class="card-icon">🚕</div>
-            <h3>Работа на своём автомобиле</h3>
-            <p>Если у вас есть автомобиль, подходящий под условия Яндекс Про, мы подключим вас к таксопарку “Новый рейс” и поможем выйти на линию.</p>
 
-            <div class="option-terms">
-              <h4>Условия для своего авто</h4>
-              <div class="terms-grid">
-                <div><span>Комиссия парка</span><strong>2%</strong></div>
-                <div><span>Комиссия за вывод</span><strong>2%</strong></div>
-                <div><span>Минимальный остаток</span><strong>нет</strong></div>
-                <div><span>Выплаты</span><strong>через Яндекс Про</strong></div>
+            <h3>Работа на своём автомобиле</h3>
+
+            <p>
+              Если у вас есть автомобиль, подходящий под условия Яндекс Про,
+              мы подключим вас к таксопарку “Новый рейс” и поможем выйти на линию.
+            </p>
+
+            <div class="terms-list" aria-label="Условия работы на своём автомобиле">
+              <div>
+                <span>Комиссия парка</span>
+                <strong>2%</strong>
+              </div>
+              <div>
+                <span>Комиссия за вывод средств</span>
+                <strong>2%</strong>
+              </div>
+              <div>
+                <span>Минимальный остаток</span>
+                <strong>нет</strong>
+              </div>
+              <div>
+                <span>Выплаты</span>
+                <strong>через Яндекс Про</strong>
               </div>
             </div>
 
             <ul class="check-list">
               <li>Подключение к Яндекс Про</li>
               <li>Работа на своём автомобиле</li>
+              <li>Помощь с регистрацией</li>
+              <li>Поддержка по рабочим вопросам</li>
               <li>Автомобиль должен подходить под условия Яндекс Про</li>
-              <li>Моментальные выплаты на привязанную карту любого банка</li>
-              <li>Топливо, мойка, штрафы и текущие расходы — за водителем</li>
-              <li>Помощь с регистрацией и поддержка по рабочим вопросам</li>
             </ul>
           </article>
 
-          <article class="option-card accent-card reveal delay-1" id="park-car">
+          <article class="option-card accent-card reveal delay-1">
             <div class="card-icon">🚘</div>
-            <h3>Работа на автомобиле таксопарка</h3>
-            <p>Если своего автомобиля нет, можно работать на автомобиле таксопарка. В парке используются LADA Granta 2024–2025 годов.</p>
 
-            <div class="option-terms">
-              <h4>Условия для авто парка</h4>
-              <div class="terms-grid">
-                <div><span>Аренда</span><strong>1800 ₽ / день</strong></div>
-                <div><span>Воскресенье</span><strong>без списания</strong></div>
-                <div><span>Залог</span><strong>нет</strong></div>
-                <div><span>Минимальный остаток</span><strong>1800 ₽</strong></div>
-                <div><span>Комиссия парка</span><strong>2%</strong></div>
-                <div><span>Комиссия за вывод</span><strong>2%</strong></div>
+            <h3>Работа на автомобиле таксопарка</h3>
+
+            <p>
+              Если своего автомобиля нет, можно работать на автомобиле таксопарка.
+              В парке используются LADA Granta 2024–2025 годов.
+            </p>
+
+            <div class="terms-list" aria-label="Условия работы на автомобиле таксопарка">
+              <div>
+                <span>Аренда</span>
+                <strong>1800 ₽ / день</strong>
+              </div>
+              <div>
+                <span>Воскресенье</span>
+                <strong>без списания аренды</strong>
+              </div>
+              <div>
+                <span>Залог</span>
+                <strong>нет</strong>
+              </div>
+              <div>
+                <span>Минимальный остаток</span>
+                <strong>1800 ₽</strong>
+              </div>
+              <div>
+                <span>Комиссия парка</span>
+                <strong>2%</strong>
+              </div>
+              <div>
+                <span>Комиссия за вывод средств</span>
+                <strong>2%</strong>
               </div>
             </div>
 
             <ul class="check-list">
               <li>LADA Granta 2024–2025</li>
-              <li>Можно забирать автомобиль домой после подписания договора аренды</li>
               <li>Можно работать днём и ночью</li>
+              <li>Автомобиль можно забирать домой после подписания договора аренды</li>
               <li>Автоматическое списание аренды с баланса</li>
-              <li>Выплаты через Яндекс Про на карту любого банка</li>
-              <li>Топливо, мойка, штрафы и текущие расходы — за водителем</li>
+              <li>Топливо, мойка, штрафы и текущие расходы оплачивает водитель</li>
             </ul>
           </article>
         </div>
 
-        <div class="notice reveal conditions-note">
-          <h3>Важно знать заранее</h3>
-          <p>Мы не обещаем фиксированный доход — он зависит от вашей активности, графика, количества выполненных заказов, спроса и других факторов.</p>
-          <p>Актуальные условия уточняйте при подключении.</p>
+        <div class="notice reveal">
+          <h3>Важно</h3>
+          <p>
+            Мы не обещаем фиксированный доход — он зависит от вашей активности,
+            графика, количества выполненных заказов, спроса и других факторов.
+            Актуальные условия уточняйте при подключении.
+          </p>
         </div>
       </div>
     </section>
@@ -169,33 +213,44 @@
         <div class="section-head reveal">
           <p class="eyebrow">Быстрый старт</p>
           <h2>Как подключиться</h2>
-          <p>Процесс простой: выбираете формат работы, связываетесь с нами и проходите подключение.</p>
+          <p>
+            Процесс простой: выбираете формат работы, связываетесь с нами
+            и проходите подключение.
+          </p>
         </div>
 
         <div class="steps-grid">
           <article class="step-card reveal">
             <span class="step-number">01</span>
-            <h3>Ознакомьтесь с условиями</h3>
-            <p>Посмотрите варианты работы и выберите, что вам подходит: свой автомобиль или автомобиль таксопарка.</p>
+            <h3>Выберите формат</h3>
+            <p>Работа на своём автомобиле или на автомобиле таксопарка.</p>
           </article>
+
           <article class="step-card reveal delay-1">
             <span class="step-number">02</span>
-            <h3>Позвоните или напишите нам</h3>
-            <p>Мы ответим на вопросы, уточним формат работы и объясним дальнейшие действия.</p>
+            <h3>Позвоните или напишите</h3>
+            <p>Ответим на вопросы, уточним детали и объясним дальнейшие действия.</p>
           </article>
+
           <article class="step-card reveal delay-2">
             <span class="step-number">03</span>
-            <h3>Регистрируем водителя</h3>
-            <p>Если условия подходят, мы помогаем с подключением к таксопарку и Яндекс Про.</p>
+            <h3>Поможем с регистрацией</h3>
+            <p>Если условия подходят, помогаем с подключением к таксопарку и Яндекс Про.</p>
           </article>
+
           <article class="step-card reveal delay-3">
             <span class="step-number">04</span>
             <h3>Выходите на линию</h3>
-            <p>После подключения можно начинать работу. Если берёте автомобиль парка, нужно подписать договор аренды и забрать ключи.</p>
+            <p>
+              После подключения можно начинать работу. Для авто парка нужно
+              подписать договор аренды и забрать ключи.
+            </p>
           </article>
         </div>
 
-        <div class="quick-note reveal">Если все условия согласованы, подключение возможно в день обращения.</div>
+        <div class="quick-note reveal">
+          Если все условия согласованы, подключение возможно в день обращения.
+        </div>
       </div>
     </section>
 
@@ -204,7 +259,7 @@
         <div class="section-head align-left reveal">
           <p class="eyebrow">Документы</p>
           <h2>Что нужно для подключения</h2>
-          <p>Подготовьте базовые документы. Остальные детали уточним лично при подключении.</p>
+          <p>Подготовьте базовые документы. Остальные детали уточним лично.</p>
         </div>
 
         <div class="doc-cards">
@@ -216,6 +271,7 @@
               <li>Телефон с приложением Яндекс Про</li>
             </ul>
           </article>
+
           <article class="doc-card reveal delay-1">
             <h3>Для работы на своём автомобиле</h3>
             <ul class="check-list">
@@ -231,17 +287,28 @@
       <div class="container">
         <div class="section-head reveal">
           <p class="eyebrow">Почему мы</p>
-          <h2>Почему выбирают “Новый рейс”</h2>
-          <p>Мы делаем подключение понятным: без лишних обещаний, с нормальным объяснением условий.</p>
+          <h2>Коротко о главном</h2>
+          <p>Оставили только то, что помогает принять решение без лишних повторов.</p>
         </div>
 
         <div class="benefits-grid">
-          <article class="benefit-card reveal"><span>01</span><h3>Понятные условия</h3><p>Сразу объясняем комиссии, выплаты, аренду и минимальный остаток.</p></article>
-          <article class="benefit-card reveal"><span>02</span><h3>Можно работать на своём авто</h3><p>Подключаем водителей с автомобилями, подходящими под условия Яндекс Про.</p></article>
-          <article class="benefit-card reveal"><span>03</span><h3>Есть автомобили парка</h3><p>Можно работать на LADA Granta 2024–2025 годов без залога.</p></article>
-          <article class="benefit-card reveal"><span>04</span><h3>Быстрое подключение</h3><p>Если условия подходят и все вопросы решены, подключение возможно в день обращения.</p></article>
-          <article class="benefit-card reveal"><span>05</span><h3>Моментальные выплаты</h3><p>Выплаты доступны через Яндекс Про на привязанную карту любого банка.</p></article>
-          <article class="benefit-card reveal"><span>06</span><h3>Поддержка</h3><p>Помогаем разобраться с подключением, выплатами и рабочими вопросами.</p></article>
+          <article class="benefit-card reveal">
+            <span>01</span>
+            <h3>Понятные условия</h3>
+            <p>Сразу объясняем комиссии, аренду, выплаты и минимальный остаток.</p>
+          </article>
+
+          <article class="benefit-card reveal delay-1">
+            <span>02</span>
+            <h3>Быстрое подключение</h3>
+            <p>Если всё согласовано, подключение возможно в день обращения.</p>
+          </article>
+
+          <article class="benefit-card reveal delay-2">
+            <span>03</span>
+            <h3>Поддержка</h3>
+            <p>Помогаем разобраться с подключением, выплатами и рабочими вопросами.</p>
+          </article>
         </div>
       </div>
     </section>
@@ -251,49 +318,81 @@
         <div class="section-head align-left reveal">
           <p class="eyebrow">FAQ</p>
           <h2>Частые вопросы</h2>
-          <p>Собрали ответы на основные вопросы водителей перед подключением.</p>
+          <p>Оставили самые важные вопросы, а не повтор всех условий подряд.</p>
         </div>
 
         <div class="accordion reveal delay-1">
           <div class="faq-item">
-            <button class="faq-question" type="button">Можно ли работать на своём автомобиле?<span>+</span></button>
-            <div class="faq-answer"><p>Да. Если автомобиль подходит под условия Яндекс Про, мы можем подключить вас к таксопарку “Новый рейс”.</p></div>
+            <button class="faq-question" type="button">
+              Можно ли работать на своём автомобиле?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Да. Если автомобиль подходит под условия Яндекс Про,
+                мы можем подключить вас к таксопарку “Новый рейс”.
+              </p>
+            </div>
           </div>
+
           <div class="faq-item">
-            <button class="faq-question" type="button">Можно ли работать без своего автомобиля?<span>+</span></button>
-            <div class="faq-answer"><p>Да. Можно работать на автомобиле таксопарка. Сейчас используются LADA Granta 2024–2025 годов.</p></div>
+            <button class="faq-question" type="button">
+              Можно ли работать без своего автомобиля?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Да. Можно работать на автомобиле таксопарка.
+                Сейчас используются LADA Granta 2024–2025 годов.
+              </p>
+            </div>
           </div>
+
           <div class="faq-item">
-            <button class="faq-question" type="button">Какая комиссия парка?<span>+</span></button>
-            <div class="faq-answer"><p>Комиссия парка сейчас составляет 2%. Актуальные условия уточняйте при подключении.</p></div>
+            <button class="faq-question" type="button">
+              Есть ли залог за автомобиль таксопарка?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Нет, залог за автомобиль таксопарка не требуется.</p>
+            </div>
           </div>
+
           <div class="faq-item">
-            <button class="faq-question" type="button">Есть ли комиссия за вывод средств?<span>+</span></button>
-            <div class="faq-answer"><p>Да, комиссия за вывод средств составляет 2%.</p></div>
+            <button class="faq-question" type="button">
+              Можно ли забрать автомобиль домой?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Да, автомобиль можно забирать домой после подписания договора аренды.</p>
+            </div>
           </div>
+
           <div class="faq-item">
-            <button class="faq-question" type="button">Сколько стоит аренда автомобиля таксопарка?<span>+</span></button>
-            <div class="faq-answer"><p>Аренда автомобиля парка — 1800 ₽ в день. По воскресеньям аренда не списывается.</p></div>
+            <button class="faq-question" type="button">
+              Как быстро можно подключиться?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Если условия вам подходят и все вопросы согласованы,
+                подключение возможно в день обращения.
+              </p>
+            </div>
           </div>
+
           <div class="faq-item">
-            <button class="faq-question" type="button">Есть ли залог за автомобиль?<span>+</span></button>
-            <div class="faq-answer"><p>Нет, залог за автомобиль таксопарка не требуется.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" type="button">Можно ли работать ночью?<span>+</span></button>
-            <div class="faq-answer"><p>Да, можно работать как днём, так и ночью.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" type="button">Можно ли забрать автомобиль домой?<span>+</span></button>
-            <div class="faq-answer"><p>Да, автомобиль можно забирать домой после подписания договора аренды.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" type="button">Как быстро можно подключиться?<span>+</span></button>
-            <div class="faq-answer"><p>Если условия вам подходят и все вопросы согласованы, подключение возможно в день обращения.</p></div>
-          </div>
-          <div class="faq-item">
-            <button class="faq-question" type="button">От чего зависит доход водителя?<span>+</span></button>
-            <div class="faq-answer"><p>Доход зависит от графика, количества заказов, активности водителя, спроса и других факторов. Мы не обещаем фиксированный доход, но честно объясняем условия работы.</p></div>
+            <button class="faq-question" type="button">
+              От чего зависит доход водителя?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Доход зависит от графика, количества заказов, активности водителя,
+                спроса и других факторов. Мы не обещаем фиксированный доход,
+                но честно объясняем условия работы.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -303,14 +402,21 @@
       <div class="container">
         <div class="cta-card reveal">
           <p class="eyebrow">На связи ежедневно</p>
+
           <h2>Готовы подключиться к таксопарку “Новый рейс”?</h2>
-          <p>Позвоните или напишите нам — расскажем условия, ответим на вопросы и подскажем, какой формат работы подойдёт именно вам.</p>
+
+          <p>
+            Позвоните или напишите нам — расскажем условия, ответим на вопросы
+            и подскажем, какой формат работы подойдёт именно вам.
+          </p>
+
           <div class="hero-buttons center-buttons">
             <a class="btn btn-primary" href="tel:+79608865827">Позвонить</a>
             <a class="btn btn-soft" href="#">WhatsApp</a>
             <a class="btn btn-soft" href="#">Telegram</a>
             <a class="btn btn-soft" href="#">MAX</a>
           </div>
+
           <span class="cta-caption">На связи ежедневно с 9:00 до 22:00. Волгоград.</span>
         </div>
       </div>
@@ -324,18 +430,26 @@
           <span class="logo-mark">НР</span>
           <span>Новый рейс</span>
         </a>
+
         <p>Таксопарк «Новый рейс» · Волгоград</p>
         <p>Подключение водителей к Яндекс Про</p>
       </div>
+
       <div>
         <p><strong>Телефон:</strong> <a href="tel:+79608865827">+7 960 886-58-27</a></p>
         <p><strong>Время связи:</strong> 9:00–22:00</p>
       </div>
+
       <div>
-        <p class="offer-note">Информация на сайте не является публичной офертой. Актуальные условия уточняйте при подключении.</p>
+        <p class="offer-note">
+          Информация на сайте не является публичной офертой.
+          Актуальные условия уточняйте при подключении.
+        </p>
+
         <!-- Здесь позже можно добавить ИП/ООО, ИНН и ОГРН -->
       </div>
     </div>
   </footer>
 </body>
+
 </html>

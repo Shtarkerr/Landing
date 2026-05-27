@@ -31,6 +31,7 @@ const closeMenu = () => {
 
 burger.addEventListener('click', () => {
   const isOpen = burger.classList.toggle('active');
+
   burger.setAttribute('aria-expanded', String(isOpen));
   mobileMenu.classList.toggle('open', isOpen);
   mobileMenu.setAttribute('aria-hidden', String(!isOpen));
