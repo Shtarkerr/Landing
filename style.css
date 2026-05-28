@@ -1,7 +1,7 @@
 :root {
   --font-main: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-  --radius-xl: 32px;
-  --radius-lg: 24px;
+  --radius-xl: 26px;
+  --radius-lg: 20px;
   --transition: 220ms ease;
   --container: 1180px;
 }
@@ -393,6 +393,18 @@ h1 {
   letter-spacing: -0.06em;
 }
 
+.hero-title {
+  word-spacing: 0.08em;
+}
+
+.hero-title__brand {
+  display: inline-block;
+  color: var(--accent);
+  word-spacing: 0;
+  white-space: nowrap;
+  text-shadow: 0 0 30px rgba(255, 210, 63, 0.2);
+}
+
 h2 {
   margin-bottom: 16px;
   font-size: clamp(32px, 4vw, 52px);
@@ -405,6 +417,14 @@ h3 {
   font-size: 22px;
   line-height: 1.2;
   letter-spacing: -0.03em;
+}
+
+.nowrap-desktop {
+  white-space: nowrap;
+}
+
+.section-head .nowrap-desktop {
+  text-align: center;
 }
 
 .hero-text {
@@ -490,6 +510,10 @@ h3 {
   text-align: center;
 }
 
+.formats-head {
+  max-width: 100%;
+}
+
 .section-head.align-left {
   margin-inline: 0;
   text-align: left;
@@ -549,6 +573,27 @@ h3 {
   border-radius: 18px;
   background: var(--accent-soft);
   font-size: 26px;
+}
+
+.scope-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0 0 16px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  color: #15110a;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.scope-badge--local {
+  color: var(--accent);
+  border: 1px solid rgba(255, 210, 63, 0.32);
+  background: var(--surface-strong);
 }
 
 .option-card p,
@@ -652,6 +697,12 @@ h3 {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   font-weight: 850;
   box-shadow: 0 18px 42px rgba(255, 190, 18, 0.22);
+}
+
+.format-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
 }
 
 .docs-grid,
@@ -934,6 +985,10 @@ h3 {
     text-align: left;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .nowrap-desktop {
+    white-space: normal;
   }
 
   .hero-buttons .btn {
